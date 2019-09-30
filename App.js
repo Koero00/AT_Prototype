@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('message', (msg) => {
     if(msg.content == "!test")
     {
-        msg.channel.send("Hello World");
+        msg.channel.send("Ik wil naar huus!!!");
     }
 });
 
