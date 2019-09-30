@@ -7,6 +7,9 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
+    
+    // Messages get displayed underneath here:
+
     if(msg.content == "!test")
     {
         msg.channel.send("Ik wil naar huus!!!");
