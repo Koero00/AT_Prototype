@@ -16,4 +16,4 @@ client.on('message', (msg) => {
     }
 });
 
-client.login(apiKey);
+client.login('x');
